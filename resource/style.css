@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bitstream Charter";
+}
+body{
+    background: blue;
+}
+.form{
+    background: chocolate;
+    height: 70vh;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+.input-box{
+    margin-top: 10px;
+    color: rebeccapurple;
+}
+.input-box input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    padding: 6px;
+}
+::place holder{
+    font-size: 18px;
+}
+.age{
+    color: crimson;
+}
+#country{
+    color: steelblue;
+}
+.btn{
+    text-align:center;
+}
+.btn input{
+    padding: 0 40px;
+    background: black;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn input:hover{
+    background-color: white;
+    color: black;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    font-family: Chilanka;
+}
+.logo{
+}

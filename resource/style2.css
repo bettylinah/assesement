@@ -1,0 +1,147 @@
+.navbar{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+
+}
+.navbar .logo a{
+    color: blue;
+    font-family: cursive;
+    text-decoration: none;
+}
+.navbar .all-links{
+    display: flex;
+    position: absolute;
+
+}
+.top{
+    color: green;
+}
+.navbar .all-links li{
+  list-style: none;
+  margin: 0 8px;
+}
+.navbar .all-links li a{
+    color: crimson;
+    text-decoration: none;
+}
+.navbar .all-links a:hover{
+    color: chocolate;
+    text-decoration: underline;
+}
+.navbar .all-links a{
+    font-size: 20px;
+    font-weight: 450;
+    padding: 6px 0;
+    color: blue;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("skating4.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: cursive;
+    background-position: center;
+}
+.home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text-one{
+    font-size: 25px;
+    color: black;
+}
+.home .text-two{
+    font-size: 65px;
+    color: green;
+    font-weight: 600;
+    margin-left: 3px;
+}
+.home .text-three{
+    font-size: 40px;
+    margin: 5px 0;
+    color: chocolate;
+}
+.home .text-four{
+    font-size: 23px;
+    margin: 5px 0;
+    color: cyan;
+}
+.home .button{
+    margin: 14px 0;
+}
+.home .button button{
+    padding: 8px 16px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: blue;
+    color: azure;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.home .button button:hover{
+    border-color: greenyellow;
+    background-color: azure;
+    color: greenyellow;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    font-family: cursive;
+    background-image: url("skating.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    background-position: center;
+}
+.about .about-content{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about .text-one{
+    font-size: xx-large;
+    font-weight: 1000;
+    text-align: center;
+    color: greenyellow;
+    ;
+
+}
+.about .text-two{
+    color: white;
+    font-weight: 500;
+    font-family: Dialog;
+}
+.about .text-three{
+    color: white;
+    font-weight: 500;
+    font-family: Dialog;
+
+}
+.about .button{
+    margin: 14px 0;
+}
+.about .button button{
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    cursor: pointer;
+}
+
+
